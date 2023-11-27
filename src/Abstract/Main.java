@@ -7,7 +7,8 @@ public class Main {
         my_coffee.affortable();
         my_coffee.lami();
 
-        Abstract_Drinks my_drinks = new Abstract_Drinks ();
+        Abstract_Drinks my_drinks = new Abstract_Drinks() {
+            
         my_drinks.mapalit();
         my_drinks.lami();
         my_drinks.bugnaw();
